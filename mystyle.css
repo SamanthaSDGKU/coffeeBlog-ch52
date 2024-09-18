@@ -16,6 +16,9 @@ h1,h2,h3{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+h2{
+    text-align: center;
+}
 /*utilities*/
 .container{
     width:80%;
@@ -41,12 +44,17 @@ h1,h2,h3{
     color:white;
 }
 /*header*/
-header{
+.site-header{
     background-image: url(img/banner.jpg);
     background-size: cover;
     height: 400px;
     text-align: center;
     color:white;
+}
+.secondary-header{
+    background-color: black;
+    color:white;
+    height: 100px;
 }
 /*menu nav*/
 .nav-menu-bar{
@@ -84,3 +92,47 @@ header{
     margin-bottom: 20px;
 }
 
+/*contact page*/
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+
+}
+.inputs-container{
+    background-color: white;
+    padding: 30px;
+    margin-top: -50px;
+}
+.input-control{
+    margin-bottom: 20px;
+}  
+.input-control input,
+.input-control textarea{
+    width: 70%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.input-control label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+/*practice*/
+h4{
+    text-align: center;
+}
+.practice{
+    display: flex;
+    flex-direction: row;
+}
+.practice img{
+    width: 50%;
+}
+.practice p{
+    width:50%;
+    margin-left: 20px;
+}
